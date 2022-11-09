@@ -1,4 +1,8 @@
 ---
+- name: Install Sendmail (Debian)
+  apt: pkg=sendmail state=present
+  when: ansible_os_family == "Ubuntu"
+  become: true
 
 - name: Install Sendmail (Debian)
   apt: pkg=sendmail state=installed
