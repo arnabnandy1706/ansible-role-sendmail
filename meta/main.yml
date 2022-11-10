@@ -3,7 +3,7 @@
 dependencies: []
 
 galaxy_info:
-  author: danbohea
+  author: arnabnandy
   description: Sendmail for Linux
   license: MIT
   min_ansible_version: 1.4
